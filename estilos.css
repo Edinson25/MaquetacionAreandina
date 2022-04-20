@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    left: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 1000px;
+}
+
+
+
+
+
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#7fb536;
+    background-size: cover ;
+}
+
+.banner img{
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.banner .bannerA{
+    width: 30%;
+    position: absolute;
+    opacity: 50%;
+    
+}
+
+.banner .contenedor{
+    width: 900px;
+    text-align: center;
+}
+
+.banner .contenedor img{
+    width: 30%;
+    text-align: center;
+    
+}
+
+.banner .contenedor p{
+    color:#466e12;
+    font-size: 2.8em;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.banner .contenedor h2{
+    color: #fff;
+    font-size: 10em;
+    font-weight: 600;
+    /* letter-spacing: 4px; */
+}
+
+.banner .contenedor h2 span{
+    font-size: 0.5em;
+}
+
+.btn{
+    /* text-align: left; */
+    margin: 20px ;
+    text-decoration: none;
+    padding: 10px 185px;
+    font-size: 1em;
+    border: 1px solid #5c5c5c;
+    border-radius: 10px;
+    color: #5c5c5c;
+    display: inline-block;
+    
+    transition: 0.5s;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titulo .btn img{
+    margin-left: -150px;
+}
+.btn2{
+    top: 0;
+    left: 0;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 90px;
+    font-size: 1.5em;
+    background: #7fb536;
+    color: #fff;;
+    display: inline-block;
+    transition: 0.5s;
+    
+}
+
+
+.btn3{
+    display: flex;
+    text-align: left;
+    margin: 20px;
+    text-decoration: none;
+    padding: 10px 366px;
+    font-size: 1em;
+    border: 1px solid #5c5c5c;
+    border-radius: 10px;
+    color: #5c5c5c;;
+    display: inline-block;
+    transition: 0.5s;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titulo .btn3 img{
+   margin-left: -330px;
+}
+
+.btn4{
+    top: 0;
+    left: 0;
+    margin: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 10px 90px;
+    font-size: 1.5em;
+    /* max-width: 80px; */
+    color: #fff;;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn4 img{
+    transform: scale(0.3);
+}
+
+
+
+
+.Titulo-texto{
+    font-size: 2.5em;
+    color: #7fb536;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Titulo-texto2{
+    font-size: 2.5em;
+    color: #7fb536;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.titulo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.titulo p{
+    font-size: 2em;
+    font-family: 'Open Sans'; 
+    text-align: center;
+    color: #5c5c5c;
+}
+
+.titulo  .btn, .titulo .btn3{
+    font-size: 1.3em;
+    width:50%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+.titulo .subtitulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; 
+    line-height: 35px; 
+    color: #5c5c5c;
+}
+
+.catalogo .contenido{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+    
+}
+
+.catalogo .contenido .box{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+
+
+    
+}
+
+.catalogo .contenido .box .imgBx{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.catalogo .contenido .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.catalogo .contenido .box .texto{
+    padding: 15px 0px 5px ;
+}
+
+.catalogo .contenido .box .texto h3{
+    font-weight: 300;
+    
+}
+
+.banner2{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#111;
+    background-size: cover ;
+}
+
+
+
+.banner2 .imgA{
+    padding: 20px;
+    width: 10%;
+    filter: invert(1);
+}
+
+div.vertical-line{ 
+width: 1px; 
+background-color: #fff; 
+height: 80%;  
+float: left; 
+
+}
+
+.banner2 .contenedor2{
+    width: 900px;
+    text-align: center;
+}
+
+.banner2 .contenedor2 p{
+    padding: 90px;
+    color:#fff;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+}
+
+.banner2 .contenedor2 h2{
+    color: #fff;
+    font-size: 9em;
+    font-weight: 600;
+    
+    /* letter-spacing: 4px; */
+}
+
+.banner2 .contenedor2  p span{
+    font-weight: 700;
+}
+
+
+.redes{
+    flex:1 0 250px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.redes li{
+    list-style: none;
+    
+}
+
+.redes li a{
+    display: inline-block;
+    margin-left: 15px;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+.redes li a img{
+    filter: invert(0);
+    transform: scale(0.6);
+}
+
+
+
+.derechos{
+    padding: 8px 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.01);
+    text-align: center;
+}
+
+.derechos p{
+    color: #333;
+    font-weight: 600;
+}
+
+.derechos span{
+    color: #F1110F;
+}
+
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.row .col50{
+    position: relative;
+    width: 48%;
+}
+
+.row .col50 .imgBx{
+    position: relative;
+    width: 100% ;
+    height: 100%;
+}   
+
+.row .col50 .imgBx img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: scale(0.9);
+        opacity: 50%;
+}
+
+
+
+@media (max-width:991px){
+
+
+
+   
+
+    section{
+        padding: 60px;
+    }
+
+    .banner .contenedor h2 {
+        color: #fff;
+        font-size: 4em;
+
+    }
+
+    .banner2 .contenedor2 h2 {
+        color: #fff;
+        font-size: 4em;
+
+    }
+
+   
+    .titulo .btn, .titulo .btn3 {
+        font-size: 1.3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+
+    .catalogo .contenido .box {
+        
+        margin: 10px;
+
+    }
+
+    .catalogo .contenido .box .imgBx {
+        height: 396px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .row .col50 {
+        position: relative;
+        width: 100%;
+    }
+
+    .row .col50 .imgBx {
+        
+        height: 300px;
+        margin-top: 20px;
+    }
+
+   
+
+    .catalogo .contenido .box {
+        
+        margin: 10px;
+
+    }
+
+    .catalogo .contenido .box .imgBx {
+        height: 396px;
+    }
+
+
+
+
+   
+}
+
+@media (max-width:480px){
+
+    .redes{
+        background: #111;
+        right: 0;
+        width: 50px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .banner .contenido h2{
+        font-size: 2.2em;
+        color: #fff;
+    }
+
+    .banner2 .contenido2 h2{
+        font-size: 2.2em;
+        color: #fff;
+    }
+
+
+}
+
+@media (max-width:394px){
+    .banner .contenedor p {
+        color: #466e12;
+        font-size: 1.5em;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .banner .contenedor img {
+        width: 80%;
+        text-align: center;
+    }
+
+    .row .col50 .imgBx img {
+        
+        width: 200%;
+        height: 100%;
+        object-fit: cover;
+        transform: scale(0.4);
+        opacity: 50%;
+        margin-left: -50%;
+    }
+
+    .Titulo-texto {
+        font-size: 2em;
+      
+    }
+
+    .titulo p {
+        font-size: 1.4567em;
+        
+    }
+
+
+    .Titulo-texto2 {
+        font-size: 2em;
+        
+    }
+
+    .btn2 {
+        
+            
+            
+            font-size: 1em;
+            background: #7fb536;
+            color: #fff;
+            display: inline-block;
+            transition: 0.5s;
+            text-align: center;
+        
+    }
+
+    .banner2 .contenedor2 p {
+        padding: 90px;
+        color: #fff;
+        font-size: 0.6em;
+        font-weight: 500;
+        
+        text-align: left;
+    }
+}
