@@ -545,4 +545,14 @@ float: left;
         
         text-align: left;
     }
+
+    .row .col50 .imgBx img {
+        width: 200%;
+        height: 174%;
+        object-fit: cover;
+        transform: scale(0.35);
+        opacity: 50%;
+        margin-left: -50%;
+        margin-top: -90px;
+    }
 }
