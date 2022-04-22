@@ -26,7 +26,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background:#7fb536;
+    background:url(bannnerandina.svg);
+    background-size: cover;
     background-size: cover ;
 }
 
@@ -445,13 +446,24 @@ float: left;
         height: 396px;
     }
 
-
+    .banner{
+        
+        background:#7fb536;
+       
+    }
 
 
    
 }
 
 @media (max-width:480px){
+
+
+    .banner{
+        
+        background:#7fb536;
+       
+    }
 
     .redes{
         background: #111;
